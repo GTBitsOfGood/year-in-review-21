@@ -7,6 +7,7 @@ function App() {
     <section>
       <Design1/>
     </section>
+
   );
 }
 

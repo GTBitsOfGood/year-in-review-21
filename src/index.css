@@ -51,13 +51,274 @@ background: url('./images/pexels-squeeb-creative-4630352.png');
 opacity: 0.6;
 }
 
+#back2 {
+  position: absolute;
+  width: 2240px;
+  height: 1461px;
+  left: 1461px;
+  top: 2397px;
+
+  background: url('./images/pexels-steve-johnson-1672850.png');
+  transform: rotate(90deg);
+}
+
+#back3 {
+  position: absolute;
+  width: 2240px;
+  height: 1461px;
+  left: 0px;
+  top: 6878px;
+
+  background: url('./images/pexels-steve-johnson-1672850.png');
+  transform: rotate(-90deg);
+}
+
 #pants {
   position: absolute;
-width: 699px;
-height: 783px;
-left: 1524.28px;
-top: 2427.54px;
-
-background: url('./images/pants.png');
-transform: rotate(-174.54deg);
+  height: 1200px;
+  width: 1500px;
+  left: 860px;
+  top: 1680px;
+  background-repeat: no-repeat;
+  /* background: url('./images/pants.png'); */
+  background: url('./images/pexels-deeana-creates-1576210 (1).png');
+  transform: rotate(13.23deg);
 }
+
+#designers_duties {
+  position: absolute;
+  width: 294px;
+  height: 305px;
+  left: 148px;
+  top: 2745px;
+  background: url('./images/pexels-deeana-creates-1576210.png');
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.55));
+}
+
+#dTeamFill {
+  position: absolute;
+  width: 560px;
+  height: 432px;
+  left: 890px;
+  top: 1000px;
+
+background: #FE5854;
+
+transform: rotate(5.59deg);
+}
+
+#dTeamText {
+  position: absolute;
+width: 400px;
+height: 84px;
+left: 1050px;
+top: 1100px;
+
+font-family: Gilroy-Heavy;
+font-size: 25px;
+line-height: 27px;
+
+/* White */
+
+color: #FFFFFF;
+
+transform: rotate(5.57deg);
+}
+
+#dTeam {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  left: 829px;
+  top: 946px;
+
+background: url('./images/pexels-daria-shevtsova-3597326.png');
+background-repeat: no-repeat;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.65));
+transform: rotate(5.57deg);
+}
+
+#dTeamName {
+
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  left: 1040px;
+  top: 800px;
+  color: 000000;
+}
+
+#dTeam_label {
+  position: absolute;
+  width: 264px;
+  height: 111px;
+  left: 1000px;
+  top: 775px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+}
+
+#dToolkit {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  left: 50px;
+  top: 1700px;
+ 
+  background: url('./images/pexels-daria-shevtsova-3597326.png');
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.65));
+  transform: rotate(-0.06deg);
+}
+#dToolkit_fill {
+  position: absolute;
+  width: 550px;
+  height: 430px;
+  left: 100px;
+  top: 1750px;
+
+    background: #FD8033;
+}
+
+#dToolkit_label {
+  position: absolute;
+  width: 264px;
+  height: 111px;
+  left: 270px;
+  top: 2200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+}
+
+#slacklogo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 500px;
+  top: 1870px;
+
+  background: url('./images/Slack logo (new).png');
+
+}
+
+#discordlogo {
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  left: 500px;
+  top: 1950px;
+  background-repeat: no-repeat;
+
+  background: url('./images/svg.homeIcon.png');
+}
+
+#notionlogo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 500px;
+  top: 2025px;
+
+  background: url('./images/Vector.png');
+}
+
+#figmalogo {
+  position: absolute;
+  width: 180px;
+  height: 200px;
+  left: 250px;
+  top: 1855px;
+  background: url('./images/Group 2.png');
+}
+
+#designer_label {
+  position: absolute;
+  width: 264px;
+  height: 111px;
+  left: 350px;
+  top: 1380px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+}
+
+#painting_name_middle {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  left: 375px;
+  top: 1400px;
+  color: 000000;
+}
+
+#painting_desc_middle {
+  position: absolute;
+  text-align: center;
+  left: 350px;
+  top: 1200px;
+  color: 000000;
+}
+
+
+#painting_name_bottom {
+  position: absolute;
+
+  left: 300px;
+  top: 2200px;
+  color: 000000;
+  font-weight: bold;
+}
+
+#painting_desc_bottom {
+  position: absolute;
+  text-align: center;
+  left: 350px;
+  top: 2230px;
+  color: 000000;
+}
+
+#designer {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  left: 100px;
+  top: 858px;
+  /* top: 15.52%; */
+  /* bottom: -15.52%; */
+  background: url('./images/pexels-daria-shevtsova-3597326.png');
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.65));
+  transform: rotate(-6.86deg);
+}
+
+#designer_fill {
+  position: absolute;
+  width: 560px;
+  height: 432px;
+  left: 160px;
+  top: 910px;
+
+  /* Orange */
+  background: #FD8033;
+  transform: rotate(-6.86deg);
+}
+
+#designer_text {
+  position: absolute;
+  width: 300px;
+  height: 432px;
+  left: 300px;
+  top: 1000px;
+  text-align: center;
+  font-family: Gilroy-Heavy;
+  font-size: 25px;
+  line-height: 27px;
+
+  /* White */
+
+  color: #FFFFFF;
+
+  transform: rotate(-6.86deg);
+}
+
