@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#recruitment {
+  position: absolute;
+  /* width: 699px;
+  height: 783px;
+  left: 1524.28px;
+  top: 2427.54px; */
+  background: url('./recruitment.png');
+}
