@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dTitle {
+  position: absolute;
+  width: 768px;
+  height: 199px;
+  left: 363px;
+
+  font-family: 'Gilroy-Heavy';
+  font-size: 200px;
+  line-height: 234px;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#dTitle1 {
+  top: 101px;
+  color: #FB3552;
+}
+
+#dTitle2 {
+  top: 264px;
+  color: #FE5854;
+}
+
+#dTitle3 {
+  top: 427px;
+  color: #FD8033;
+}
+
+#back {
+  position: absolute;
+width: 1598px;
+height: 2397px;
+left: -82px;
+top: 0px;
+
+background: url('./images/pexels-squeeb-creative-4630352.png');
+opacity: 0.6;
+}
+
+#pants {
+  position: absolute;
+width: 699px;
+height: 783px;
+left: 1524.28px;
+top: 2427.54px;
+
+background: url('./images/pants.png');
+transform: rotate(-174.54deg);
+}
