@@ -1,10 +1,10 @@
 import './App.css';
-import recruitmentscreen from './recruitmentscreen';
+import RecruitmentScreen from './RecruitmentScreen';
 
 function App() {
   return (
     <section>
-      <recruitmentscreen/>
+      <RecruitmentScreen/>
     </section>
   );
 }

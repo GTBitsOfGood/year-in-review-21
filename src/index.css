@@ -12,10 +12,69 @@ code {
     monospace;
 }
 
-#recruitment-screen1 {
+#recruitment1 {
   position: absolute;
   width: 1440px;
   height: 900px;
   left: 0px;
   top: 0px;
+  background: url('./images/recruitment2.png');
+}
+
+#recruitment2 {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  left: 1440px;
+  top: 0px;
+  background: url('./images/recruitment.png');
+}
+
+.container {
+  position: absolute;
+  width: 362px;
+  height: 466px;
+  left: 85px;
+  top: 234px;
+}
+
+.container img {
+  width: 70%;
+  height: auto;
+}
+
+#openPositionsCard {
+  position: absolute;
+  width: 400px;
+  height: 332px;
+  left: 585px;
+  top: 441px;
+  background: url('./images/open-positions-card.png');
+}
+
+#projectTeamsCard {
+  position: absolute;
+  width: 487px;
+  height: 336px;
+  left: 1122px;
+  top: 410px;
+  background: url('./images/total-project-teams.png');
+}
+
+#bootcampersCard {
+  position: absolute;
+  width: 420px;
+  height: 310px;
+  left: 1743px;
+  top: 443px; 
+  background: url('./images/bootcampers.png');
+}
+
+#nonProfitsCard {
+  position: absolute;
+  width: 349px;
+  height: 359px;
+  left: 2298px;
+  top: 428px;   
+  background: url('./images/total-nonprofits.png');
 }
