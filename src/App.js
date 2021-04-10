@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import recruitmentscreen from "./components/recruitmentscreen";
+import recruitmentscreen from './recruitmentscreen';
 
 function App() {
   return (

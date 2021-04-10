@@ -12,11 +12,10 @@ code {
     monospace;
 }
 
-#recruitment {
+#recruitment-screen1 {
   position: absolute;
-  /* width: 699px;
-  height: 783px;
-  left: 1524.28px;
-  top: 2427.54px; */
-  background: url('./recruitment.png');
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
 }
