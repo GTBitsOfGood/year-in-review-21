@@ -1,5 +1,5 @@
 import './App.css';
-import RecruitmentScreen from './RecruitmentScreen';
+import RecruitmentScreen from './recruitmentscreen.js';
 
 function App() {
   return (

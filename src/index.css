@@ -30,7 +30,7 @@ code {
   background: url('./images/recruitment.png');
 }
 
-.container {
+.containerApplications {
   position: absolute;
   width: 362px;
   height: 466px;
@@ -38,43 +38,99 @@ code {
   top: 234px;
 }
 
-.container img {
-  width: 70%;
+.containerApplications img {
+  width: 90%;
   height: auto;
 }
 
-#openPositionsCard {
+.containerApplications:hover {
+  position: absolute;
+  width: 382px;
+  height: 486px;
+  left: 75px;
+  top: 224px;
+}
+
+.containerOpenPositions {
   position: absolute;
   width: 400px;
   height: 332px;
   left: 585px;
   top: 441px;
-  background: url('./images/open-positions-card.png');
 }
 
-#projectTeamsCard {
+.containerOpenPositions img {
+  width: 90%;
+  height: auto;
+}
+
+.containerOpenPositions:hover {
+  position: absolute;
+  width: 420px;
+  height: 352px;
+  left: 575px;
+  top: 431px;
+}
+
+.containerProjectTeams {
   position: absolute;
   width: 487px;
   height: 336px;
   left: 1122px;
   top: 410px;
-  background: url('./images/total-project-teams.png');
 }
 
-#bootcampersCard {
+.containerProjectTeams img {
+  width: 90%;
+  height: auto;
+}
+
+.containerProjectTeams:hover {
+  position: absolute;
+  width: 507px;
+  height: 356px;
+  left: 1112px;
+  top: 400px;
+}
+
+.containerBootcampers {
   position: absolute;
   width: 420px;
   height: 310px;
   left: 1743px;
-  top: 443px; 
-  background: url('./images/bootcampers.png');
+  top: 443px;
 }
 
-#nonProfitsCard {
+.containerBootcampers img {
+  width: 90%;
+  height: auto;
+}
+
+.containerBootcampers:hover {
+  position: absolute;
+  width: 440px;
+  height: 330px;
+  left: 1733px;
+  top: 433px;
+}
+
+.containerNonprofits {
   position: absolute;
   width: 349px;
   height: 359px;
   left: 2298px;
-  top: 428px;   
-  background: url('./images/total-nonprofits.png');
+  top: 428px;
+}
+
+.containerNonprofits img {
+  width: 90%;
+  height: auto;
+}
+
+.containerNonprofits:hover {
+  position: absolute;
+  width: 369px;
+  height: 379px;
+  left: 2288px;
+  top: 418px;
 }
