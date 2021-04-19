@@ -4,6 +4,7 @@ const Design1 = () => (
     <section>
         
         <section>
+          
             <div class = "parent">
                 <image id="back"></image>
                 <image id="pants"></image>
@@ -47,15 +48,6 @@ const Design1 = () => (
             </div>
             
         </section>
-
-
-        {/* <section>
-          <div id = "designworkhop">
-            <image id = "back2"></image>
-            <image id = "designers_duties"></image>
-            <image id = "user_research"></image>
-          </div>
-        </section> */}
     </section>
 )
 
